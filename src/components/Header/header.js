@@ -6,13 +6,13 @@ function Header(){
         <div>
             <header className="header">
                 <nav className="navbar">
-                    <a href="/" className="nav-logo">WebDev.</a>
+                    <a href="/webmain" className="nav-logo">WebDev.</a>
                     <ul className="nav-menu">
                         <li className="nav-item">
-                            <a href="/about" className="nav-link">About</a>
+                            <a href="/webmain/about" className="nav-link">About</a>
                         </li>
                         <li className="nav-item">
-                            <a href="/contact" className="nav-link">Contact</a>
+                            <a href="/webmain/contact" className="nav-link">Contact</a>
                         </li>
                     </ul>
                     <div className="hamburger">

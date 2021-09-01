@@ -13,10 +13,10 @@ function App() {
     <BrowserRouter basename="/">
         <Header/>
         <Switch>
-          <Route path="/webmain" exact component={() => (<Redirect to="/" />)} />
-          <Route path="/" exact component={Home}/>
-          <Route path="/about" component={About}/>
-          <Route path="/contact" component={Contact}/>
+          {/* <Route path="/webmain" exact component={() => (<Redirect to="/" />)} /> */}
+          <Route path="/webmain" exact component={Home}/>
+          <Route path="/webmain/about" component={About}/>
+          <Route path="/webmain/contact" component={Contact}/>
           <Route component={NotFound}/>
         </Switch>
     </BrowserRouter>
